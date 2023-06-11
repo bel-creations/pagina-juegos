@@ -1,0 +1,113 @@
+
+.info {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+}
+
+.info:hover {
+    cursor: pointer;
+    background-color: rgb(71, 71, 71);
+}
+
+.descripcion {
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 70%;
+    background-color: rgb(235, 235, 242);
+    border-radius: 5%;
+}
+
+.descripcion--show {
+    display: inline-block;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+.descripcion > p {
+    width: 80%;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 4rem;
+}
+
+h1 {
+    margin: 2rem auto;
+    margin-top: 5rem;
+    font-size: 5rem;
+}
+
+#level-title {
+    font-size: 2.5rem;
+}
+
+.container {
+    width: 50%;
+    margin: 2rem auto;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 1rem;
+}
+
+.btn {
+    margin: auto;
+    height: 90%;
+    width: 90%;
+    border: 2px solid white;
+    outline: 2px solid rgb(108, 108, 108);
+    border-radius: 30%;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.green {
+    background-color: #58ec9d;
+}
+
+.red {
+    background-color: #f63f2b;
+}
+
+.blue {
+    background-color: #3145fa;
+}
+
+.yellow {
+    background-color: #fcdf37;
+}
+
+
+.game-over {
+    background-color: rgba(204, 2, 2, 0.837);
+    opacity: 0.8;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
